@@ -55,17 +55,17 @@
 
     <!--Integration VIEW-->
     <string name="integration_title">Apps que integran la App TET</string>
-    <string name="integration_description">Cuando una app se integra con la API de TET la experinecia del usuario mejora. Es simple, fácil y sencillo.</string>
+    <string name="integration_description">Cuando una app se integra con la API de TET la experiencia del usuario mejora. Es simple, fácil y sencillo.</string>
     <string name="integration_example_video">VIDEO DE EJEMPLO</string>
     <string name="integration_contact">CONTACTANOS</string>
-    <string name="integration_add_yours">Do you develop Apps for navigation or otherwise relevant to the TET? Would you like to integrate our API? Touch contact us and tell us about it! Also check the example video.</string>
-    <string name="download">DOWNLOAD</string>
-    <string name="drivemode_title">Drive Mode Dashboard</string>
-    <string name="drivemode_description">A highly customizable dashboard for your motorcycle! Create trip logs, navigate GPX files with offline maps, record GPX files, save and view locations, get detailed weather information and much, much more.\n\nDeveloped by the creator of the TET app, it aims to become the ultimate TET solution!</string>
+    <string name="integration_add_yours">¿Desarrollas Apps de navegación o de otro tipo que sea relevante para la comunidad TET? ¿quieres integrar nuestra API? ¡Pincha en Contáctanos y hablanos sobre ello!. Revisa también el vídeo de ejemplo.</string>
+    <string name="download">DESACARGA</string>
+    <string name="drivemode_title">Panel de Conducción</string>
+    <string name="drivemode_description">¡Un panel personalizable para tu Moto! Crea rutas, navega rutas GPX files con mapas offline, guarda rutas GPX, guarda y visualiza localizaciones, obtiene detalles meteorológicos y mucho, mucho mas.\n\nDesarrollado por el creador de la app TET, ¡tiene como objetivo convertirse en la solucion para todo rider TET!</string>
 
     <!--CONTRIBUTE VIEW-->
-    <string name="contribute_title">Make your first fuel stop right here&#8230;</string>
-    <string name="contribute_subtitle">The Trans Euro Trail® is fuelled by passion, maintained by riders and supported by YOU. Best of all, it’s free of charge and intends to stay that way!</string>
+    <string name="contribute_title">Haz tu primera parada de repostaje justo aquí&#8230;</string>
+    <string name="contribute_subtitle">El Trans Euro Trail® está alimentado con pasión, mantenido por riders y apoyado por TI. Lo mejor de todo, ¡es gratuito y pretende seguir así!</string>
     <string name="contribute_text_button">READ MORE</string>
     <string name="contribute_buy_merch">BUY MERCH</string>
     <string name="contribute_app_developer">CONTRIBUTE APP</string>
