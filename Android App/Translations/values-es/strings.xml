@@ -9,12 +9,12 @@
     <string name="ok">OK</string>
     <string name="Wrong_Activity_Key">Código incorrecto para esta actividad</string>
     <string name="Null_Key">¡No existe un código para validar esta actividad!</string>
-    <string name="No_Bundle_Extras">No bundle extras for this activity!</string>
+    <string name="No_Bundle_Extras">¡No hay mas extras para esta actividad!</string>
     <string name="cancel">Cancelar</string>
     <string name="Camera">Cámara</string>
     <string name="Local_Gallery_File">Galería</string>
     <string name="yes">Si</string>
-    <string name="later">Mas tarde</string>
+    <string name="later">Más tarde</string>
 
     <!--MAIN VIEW-->
     <string name="pending_notification">0</string>
