@@ -19,9 +19,9 @@
     <!--MAIN VIEW-->
     <string name="pending_notification">0</string>
     <!--Button: TET Tracks Browser-->
-    <string name="browser_tet_tracks_title">TET Tracks</string>
+    <string name="browser_tet_tracks_title">Pistas TET</string>
     <string name="browser_button_text">EXAMINAR</string>
-    <string name="browser_image_description">Buscar Tracks TET</string>
+    <string name="browser_image_description">Buscar Pistas TET</string>
     <!--Button: Report Route Problems-->
     <string name="report_route_problem_title">Problema en la ruta</string>
     <string name="report_button_text">INFORMAR</string>
@@ -130,159 +130,160 @@
     <string name="gps_accuracy">precisión GPS</string>
     <string name="gps_accuracy_message_wait">Por favor, espera a tener mejor precisión de GPSpara informar usando tu localización!</string>
     <string name="gps_accuracy_message_not_bad">La precisión de GPS debería ser suficiente para informar usando tu localización.</string>
-    <string name="gps_accuracy_message_good">GPS accuracy is good you can use your current location to report!</string>
-    <string name="no_location_selected_title">No Location Selected</string>
-    <string name="no_location_selected_message">Touch and hold anywhere on the map to mark the report location or click the crosshair button in the top right corner to select your current location.</string>
-    <string name="no_message_no_photo_title">No Description and no Photo!</string>
-    <string name="no_message_no_photo_message">You did not write any description and you did not add any photo, this makes it very hard for us to identify the problem, please consider writing something or adding a photo!</string>
-    <string name="track_length">Track length:</string>
+    <string name="gps_accuracy_message_good">¡La precisión del GPS es buena, puedes utilizar tu localización actual para informar!</string>
+    <string name="no_location_selected_title">No seleccionada localización </string>
+    <string name="no_location_selected_message">Toca y mantén presionado en cualquier parte del mapa para seleccionar la localizacion del indicente o pusa en el boton de punto de mira en la parte superior derecha para selecionar tu localización actual.</string>
+    <string name="no_message_no_photo_title">¡Sin descripción ni Foto!</string>
+    <string name="no_message_no_photo_message">No has escrito una descripción ni añadido ninguna foto, esto hace mucho mas dificil identificar cual es el problema, por favor descríbenos un poco mas detalle o añade alguna foto.</string>
+    <string name="track_length">Longitud del Track:</string>
 
 
     <!--News Feed-->
-    <string name="news_feed_title">News Feed</string>
-    <string name="news_feed_button_text">READ</string>
-    <string name="news_img_description">TET NEWS</string>
-    <string name="news_feed_description">Stay in the loop with the latest official TET news.</string>
-    <string name="news_feed_notification_title">New unread TET news</string>
-    <string name="news_feed_notification_message1">You have</string>
-    <string name="news_feed_notification_message2">unread news</string>
-    <string name="this_news_has_no_link">This news has no link!</string>
+    <string name="news_feed_title">Noticias</string>
+    <string name="news_feed_button_text">LEER</string>
+    <string name="news_img_description">NOTICIAS TET</string>
+    <string name="news_feed_description">Mantente al tanto con las últimas noticias de TET.</string>
+    <string name="news_feed_notification_title">Nuevas noticas TET sin leer</string>
+    <string name="news_feed_notification_message1">Tienes</string>
+    <string name="news_feed_notification_message2">noticias sin leer</string>
+    <string name="this_news_has_no_link">Esta noticia no tiene enlace!</string>
     
     
     <!--TRACK BROWSER-->
-    <string name="filter">Filter</string>
-    <string name="track_section">Track Section</string>
-    <string name="section">Section</string>
-    <string name="options">Options</string>
-    <string name="dialog_remove_section">Remove this section or make it the only visible?</string>
-    <string name="remove">Remove</string>
-    <string name="only_visible">Only Visible</string>
-    <string name="rebuilding_waypoints">Rebuilding Waypoints</string>
-    <string name="rebuild_waypoints">Rebuild Waypoints</string>
-    <string name="remove_waypoints_dialog_title">Remove Waypoints Outside the Visible Sections?</string>
-    <string name="remove_waypoints_dialog_message">This will clean up all the waypoints, removing any that no longer is close to the visible sections</string>
+    <string name="filter">Filtrar</string>
+    <string name="track_section">Sección de Track</string>
+    <string name="section">Sección</string>
+    <string name="options">Opciones</string>
+    <string name="dialog_remove_section">¿Eliminar esta sección o hacer que sea la única visible?</string>
+    <string name="remove">Eliminar</string>
+    <string name="only_visible">solo Visible</string>
+    <string name="rebuilding_waypoints">Restableciendo Puntos de paso</string>
+    <string name="rebuild_waypoints">Restablecer Puntos de paso</string>
+    <string name="remove_waypoints_dialog_title">¿Eliminar Puntos de paso fuera de las secciones visibles?</string>
+    <string name="remove_waypoints_dialog_message">Esta acción limpiará todsos los puntos de paso, eliminando cualquiera que no esté cerca de las secciones visibles.</string>
     <string name="no">No</string>
-    <string name="export_edited_gpx">Exporting Edited GPX file</string>
-    <string name="track_browser_title">Track Browser</string>
-    <string name="tracks_view_subtitle">Track Information</string>
-    <string name="open_track">OPEN TRACK</string>
-    <string name="generating_list">Generating List</string>
-    <string name="delete_local_file">DELETE FILE</string>
-    <string name="gpx_open_dialog">Loading GPX File</string>
-    <string name="fetching_country_list">Fetching Countries List</string>
-    <string name="track_download_progress">Downloading Track</string>
-    <string name="track_browser_noInternet_title">No Connection - Offline Mode</string>
-    <string name="track_browser_noInternet_message">There is no Internet access or there was a problem connecting to the server. You are only able to view your previous downloaded tracks (local files).</string>
-    <string name="track_download_offline_title">Downloaded Tracks</string>
-    <string name="track_download_offline_subtitle">Browsing previously downloaded files in offline mode.</string>
-    <string name="track_last_updated">Track last updated on</string>
-    <string name="no_offline_files">No GPX Tracks found!</string>
-    <string name="track_updates_available_title">There are track updates available!</string>
-    <string name="track_updates_available_message">Do you want to update them now?</string>
-    <string name="updating_tracks">Updating your local GPX Tracks</string>
-    <string name="track_updated_success_title">GPX Tracks Updated</string>
-    <string name="track_updated_success_message">Local GPX file(s) updated for: </string>
-    <string name="track_updated_error_title">GPX Track Update Failed</string>
-    <string name="track_updated_error_message">There was an error updating your tracks, please try again later.</string>
-    <string name="track_view_start_error_title">Error Starting Activity</string>
-    <string name="track_view_start_error_message">There was an error starting this activity, please try again!</string>
-    <string name="track_delete_success_title">Local GPX file deleted</string>
-    <string name="track_delete_success_message">The local GPX file for this country was deleted, you can always download it again later!</string>
-    <string name="track_delete_error_title">Local GPX file delete error</string>
-    <string name="track_delete_error_message">There was a problem deleting your local file, please try again!</string>
-    <string name="track_download_error_title">File Download Error</string>
-    <string name="track_download_error_message">There was an error downloading the GPX file, please try again later.</string>
-    <string name="gpx_parse_error_title">Error Opening GPX File</string>
-    <string name="gpx_parse_error_message">There seems to be a problem reading the GPX file. Please try to open it again!</string>
-    <string name="gpx_open_noapp_title">No Compatible App Installed</string>
-    <string name="gpx_open_noapp_message">There is no app capable of handling GPX files, please install one from the Play Store.</string>
-    <string name="disclaimer_DontShowAgain">Do not show again</string>
-    <string name="no_permissions_title">No GPS Permission</string>
-    <string name="no_permissions_message">This will not work without GPS permission. FYI we do not collect ANY user data!</string>
-    <string name="disclaimer_title">Before downloading read this</string>
-    <string name="disclaimer_agree">Agree</string>
-    <string name="disclaimer_agree_dontshow">Agree &amp; never show</string>
-    <string name="disclaimer_refuse">Refuse</string>
-    <string name="zoom_mode_enabled">Zoom Mode Enabled</string>
-    <string name="pan_mode_enabled">Pan Mode Enabled</string>
-    <string name="choose_app">Choose App</string>
-    <string name="update_track_button">UPDATE</string>
-    <string name="preview_track_button">PREVIEW</string>
-    <string name="github_page_button">GITHUB PAGE</string>
-    <string name="sending_report">Sending Report</string>
-    <string name="track_browser_subtitle">View and download tracks, by downloading you will be subscribed for update notifications</string>
-    <string name="disclaimer_message">By continuing to the download and in using the Trans Euro Trail® files, you are accepting and agree to everything below.
+    <string name="export_edited_gpx">Exportando GPX Editado</string>
+    <string name="track_browser_title">Buscador de Track</string>
+    <string name="tracks_view_subtitle">Información Track</string>
+    <string name="open_track">ABRIR TRACK</string>
+    <string name="generating_list">Generando Lista</string>
+    <string name="delete_local_file">ELIMINAR FICHERO</string>
+    <string name="gpx_open_dialog">Cargando Fichero GPX</string>
+    <string name="fetching_country_list">Obteniendo listado de Paises</string>
+    <string name="track_download_progress">Descargando Track</string>
+    <string name="track_browser_noInternet_title">Sin Conexión - Modo Offline</string>
+    <string name="track_browser_noInternet_message">No hay una conexión a Internet o hay un problema conectando con el servidor. Solo es posible ver los Tracks descargados previamente (ficheros locales).</string>
+    <string name="track_download_offline_title">Tracks Descargados</string>
+    <string name="track_download_offline_subtitle">Examinando ficheros descragados previamente en modo offline.</string>
+    <string name="track_last_updated">Track actualizado a </string>
+    <string name="no_offline_files">No se han encontrado Tracks GPX !</string>
+    <string name="track_updates_available_title">¡Hay actualizaciones de Tracks disponibles!</string>
+    <string name="track_updates_available_message">¿Quieres actualizarlos ahora?</string>
+    <string name="updating_tracks">Actualizando los Tracks GPX en local</string>
+    <string name="track_updated_success_title">Tracks GPX Actualizados</string>
+    <string name="track_updated_success_message">Ficheros GPX locales actualizados: </string>
+    <string name="track_updated_error_title">Fallo actualizacion ficheros GPX</string>
+    <string name="track_updated_error_message">Ha habido un error actualziando tus Tracks, por favor, inténtalo mas tarde.</string>
+    <string name="track_view_start_error_title">Error iniciando actividad</string>
+    <string name="track_view_start_error_message">¡Ha habido un error iniciando esta actividad, por favor inténtalo de nuevo!</string>
+    <string name="track_delete_success_title">Fichero GPX local eliminado</string>
+    <string name="track_delete_success_message">¡El fichero GPX local para este país fue eliminado, puedes descargarlo de nuevo mas tarde!.</string>
+    <string name="track_delete_error_title">Error eliminado fichero GPX local</string>
+    <string name="track_delete_error_message">Ha habido un problema eliminando el fichero local, por favor inténtalo de nuevo</string>
+    <string name="track_download_error_title">Error descarga de fichero</string>
+    <string name="track_download_error_message">Ha habido un error descargando el fichero GPX, por favor, inténtalo mas tarder.</string>
+    <string name="gpx_parse_error_title">Error abriendo fichero GPX</string>
+    <string name="gpx_parse_error_message">Parece haber un problema leyendo el fichero GPX. Por favor, intenta abrirlo de nuevo.</string>
+    <string name="gpx_open_noapp_title">App no compatible</string>
+    <string name="gpx_open_noapp_message">No hay una app capaz de manejar los fichero GPX. Por favor, instala una de la tienda de apps.</string>
+    <string name="disclaimer_DontShowAgain">No mostrar de nuevo</string>
+    <string name="no_permissions_title">No tiene permisos de uso de GPS</string>
+    <string name="no_permissions_message">¡Esto no va a funcionar sin tener permisos de uso del GPS. Para tu información, no recogemos NINGUN datos del usuario!</string>
+    <string name="disclaimer_title">Antes de descargar leer esto:</string>
+    <string name="disclaimer_agree">De acuerdo </string>
+    <string name="disclaimer_agree_dontshow">De acuerdo &amp; No mostrar</string>
+    <string name="disclaimer_refuse">Rechazar</string>
+    <string name="zoom_mode_enabled">Modo Zoom Habilitado</string>
+    <string name="pan_mode_enabled">Mode Panorámico Habilitado</string>
+    <string name="choose_app">Escoge App</string>
+    <string name="update_track_button">ACTUALIZAR</string>
+    <string name="preview_track_button">VISTA PREVIA</string>
+    <string name="github_page_button">PAGINA GITHUB</string>
+    <string name="sending_report">Enviando Informe</string>
+    <string name="track_browser_subtitle">Visualiza y descarga tracks, al descargar se suscribirá para recibir notificaciones de actualizaciones.</string>
+    <string name="disclaimer_message">Al continuar con la descarga y uso del los ficheros de Trans Euro Trail® files, estás aceptando y estás de acuerdo con lo mostrado a contunuación. 
 \n\n
-1. The GPX is issued by the Trans Euro Trail® Community Interest Company, Company No. 11371199, Address: Unit 3, Cragg Road, Mytholmroyd, Hebden Bridge, West Yorkshire, HX7 5HR, United Kingdom.
+1. El fichero GPX es emitido por Trans Euro Trail® Community Interest Company, Company No. 11371199, Dirección: Unit 3, Cragg Road, Mytholmroyd, Hebden Bridge, West Yorkshire, HX7 5HR, United Kingdom.
 \n\n
-2. The GPX is issued free of charge and is provided "as is," with all faults, defects and errors, and without warranty of any kind.
+2. El fichero GPX es emitido sin cargo (gratis) y es proporcionado "tal cual", con todos los fallos, defectos y errores y sin garantía de ningún tipo.
 \n\n
-3. The accuracy of the trail is not guaranteed, nor are the GPS co-ordinates.
+3. No se garantiza la precisión del recorrido, ni las coordenadas GPS.
 \n\n
-4. The Trans Euro Trail® is a suggestion not a direction.
+4. El Trans Euro Trail® es una sugerencia, no una orden.
 \n\n
-5. The Trans Euro Trail® Community Interest Company does not represent or warrant that materials in the site or the services are accurate, complete, reliable, current or error-free.
+5. The Trans Euro Trail® Community Interest Company no representa ni garantiza que los materiales en el sitio o los servicios sean precisos, completos, confiables, actualizados o libres de errores.
 \n\n
-6. The Trans Euro Trail® Community Interest Company cannot represent or warrant that the site or its servers are free of viruses or other harmful components.
+6. The Trans Euro Trail® Community Interest Company no puede representar ni garantizar que el sitio o sus servidores estén libres de virus u otros componentes dañinos.
 \n\n
-7. You undertake not to share this GPX on any electronic file sharing device or server.
+7. Usted se compromete a no compartir estos ficheros GPX en ningún servidor o dispositivo para compartir archivos electrónicos.
 \n\n
-8. You will download the most recent GPX for your country of travel just before you require it and download updates, if relevant, while travelling.
+8. Debes descargar el GPX más reciente para tu país del viaje justo antes de que lo necesites y descargarás sus actualizaciones, si es fuera necesario, mientras viajas.
 \n\n
-9. If you stray onto private land, apologise and get back onto the road or trail.
+9. Si se desvía hacia un terreno privado, discúlpese y vuelva a la carretera o sendero.
 \n\n
-10. These trails can be temporarily or permanently closed at short notice under local law.
+10. Estos senderos pueden cerrarse temporal o permanentemente con poca antelación según las leyes locales.
 \n\n
-11. Do not ride trails beyond your capability. If unsure, get off your bike and walk the trail first. Be prepared to turn round and find an alternative route.
+11. No recorra los Tracks más allá de su capacidad. Si no está seguro, bájese de la moto y camine primero por el sendero. Esté preparado para dar la vuelta y encontrar una ruta alternativa.
 \n\n
-12. Trail riding alone, especially on trails you do not know, is really unwise.
+12. Montar en senderos solo, especialmente en senderos que no conoce, es realmente imprudente.
 \n\n
-13. Many country trails are rarely maintained. You will find ruts, holes, floods, treacherous surfaces and the occasional booby trap hazard deliberately placed by people who do not like motorcycles using trails.
+13. Muchos Tracks rara vez se mantienen. Encontrará surcos, hoyos, inundaciones, superficies traicioneras y el peligro ocasional de trampas colocadas deliberadamente por personas a las que no les gustan que circulen las motos por los Tracks.
 \n\n
-14. When you use the trails and roads, you are on your own. You exercise your judgement in your own skills and your own navigation. All the Trans Euro Trail® Community Interest Company can do is show you where some of the trails are, but their legality and viability are not confirmed and can change at a moment\'s notice.
+14. Cuando usa los tracks y carreteras, está solo. Ejerza su juicio en sus propias habilidades y su propia navegación. Todo lo que la Trans Euro Trail® Community Interest Company puede hacer es mostrarle dónde están algunos de los tracks, pero su legalidad y viabilidad no están confirmadas y pueden cambiar en cualquier momento.
 \n\n
-15. You undertake to respect and adhere to road signs, barriers and local laws. The decision to use a road or trail is entirely yours and you accept that you bear full responsibility for your action or any infringements of the law.
+15. Usted se compromete a respetar y hacer caso a las señales de tráfico, barreras y leyes locales. La decisión de utilizar una carretera o sendero es totalmente suya y acepta que es completamente responsable de su acción o de cualquier infracción de la ley.
 \n\n
-16. The Trans Euro Trail® Community Interest Company shall not have any liability for use of the GPX, directly or indirectly arising out of its use or in any way involving any Claim which is brought in any jurisdiction other than the United Kingdom, Isle of Man or Channel Islands.
+16. La Trans Euro Trail® Community Interest Company no tendrá ninguna responsabilidad por el uso del GPX, que surja directa o indirectamente de su uso o que de alguna manera involucre cualquier reclamación que se presente en cualquier jurisdicción que no sea el Reino Unido, Isla de Man o Islas del Canal.
 \n\n
-17. Motorcycling carries risks. Adventure motorcycling adds to these:\n
-a. Mobile phone coverage may be patchy or non-existent so summoning help may be limited. If help is summoned it may struggle to reach you and you may incur high costs. Unpaved tracks vary from gravel to broken tar to sand to stone to boulder to grass. Each carries its own challenges of grip, stability and unpredictability all of which vary immensely with weather conditions which can change quickly especially in mountain areas.\n
-b. The physical demands of riding a motorcycle, laden or otherwise, off road are not to be underestimated. If you drop it, picking it up can be hard work and recovering it from a hillside, river or mud hole where it has slipped can be exhausting. Add into the mix the variable climate in Europe - subzero to high 30s and above - and heat, cold and dehydration can impair performance and make a dangerous cocktail when mixed with the complex task of off pavement riding.\n
-c. Navigation can be challenging, especially without practicing using GPS or maps on the move, on the “wrong" side of the road or with signposts in an unfamiliar script.\n
-d. Mechanical issues easily sorted out in one's own garage or home city can become much more of a challenge away from home in an area with poor infrastructure or dealer knowledge. \n
-e. Local adults and children (and animals!) may be unfamiliar with motorcycles or their capabilities and misjudge situations. Driving standards and discipline vary hugely and often the perception is “might is right” with scant regard being paid to the little guy on a motorbike. \n
-f. Local wildlife both domestic and wild can pose risks. Bears and wolves are present in some areas, snakes in others, wild roaming reindeer in the far north and cattle and dogs are all over. \n
-g. Laws and regulations are always changing across the continent, so a trail that contributors thought was legal, may not now be so. This may lead to conflict with the authorities, communities, landowners or other users - anything from a glance, a shout or a waved fist to arrest, prosecution, litigation, bike confiscation, fine or loss of licence or liberty.\n
-h. Concepts and practice of sanitation and hygiene vary immensely and medical facilities can be scarce, suboptimal or distant.\n
-i. The seedier side of humanity can also impact on you through theft, assault or fraud.\n
-j. Be aware that some areas of eastern Europe also have heightened awareness of mobile populations following the influx of refugees so you may come across desperately poor people or wary authorities.\n
-k. In Bosnia, Croatia and other locations the detritus of war still exists in the form of uncleared mine-fields. Snow, water and soil creep all shift these so that straying from established well used trails can be dangerous and, needless to say, stupid.
-\n\n
-18. All trails and roads require you and your motorcycle to be fully insured, licensed and road-worthy.
-\n\n
-19. You should ensure that your paperwork is in order whether it be bike, breakdown or medical/repatriation insurance, licences or passports.
-\n\n
-20. You should get some practice in to build confidence and competence (and respect for your own limits and those of your bike).
-\n\n
-21. You should ensure you are properly equipped with the right tyres, spares, protection, first aid kit, communications devices (and batteries!), luggage and camping gear.
-\n\n
-22. Ride with an awareness of the terrain, surface and in anticipation of unexpected hazards.
-\n\n
-23. Moderate your speed.
-\n\n
-24. Get bike fit. If you’ve got a medical condition then think carefully and take some medical advice.
-\n\n
-25. Start the trip with a travel ready bike. Get familiar with your bike, what daily checks to make and how to fix issues with it.
-\n\n
-26. Take security precautions with your possessions and self.
-\n\n
-27. You agree to adhere to the Trans Euro Trail® Code of Conduct and be an ambassador of responsible motorcycling.
-\n\n
-28. Accept that you are master or mistress of your own destiny, safety, health and security. You take responsibility for whatever happens.</string>
+
+17. El motociclismo conlleva riesgos. En el motociclismo de aventura además se suma: \n
+a. La cobertura del teléfono móvil puede ser irregular o inexistente, por lo que a la hora de solicitar ayuda puede haber problemas. Si se solicita ayuda, es posible que tengan dificultades para comunicarse con usted y es posible que incurra en alto coste. Las pistas sin pavimentar varían desde grava hasta alquitrán roto, arena, piedra, piedras y hierba. Cada uno conlleva sus propios desafíos de agarre, estabilidad e imprevisibilidad, los cuales varían enormemente con las condiciones climáticas que pueden cambiar rápidamente, especialmente en áreas montañosas. \n
+b. Las exigencias físicas de conducir una motocicleta, cargada o no, fuera de la carretera no deben subestimarse. Si la moto se cae, levantarla nuevamente puede ser un trabajo duro y recuperarlo de una ladera, río o pozo de barro donde se ha deslizado, puede ser agotador. Agregue a la mezcla el clima variable en Europa (a 30 grados bajo cero o más) y el calor, el frío y la deshidratación pueden afectar el rendimiento y hacer un cóctel peligroso cuando se mezclan con la compleja tarea de conducir por pistas. \n
+c. La navegación puede ser un desafío, especialmente sin practicar el uso de un GPS o mapas en movimiento, en el lado "incorrecto" de la carretera o con señales desconocidas. \n
+d. Los problemas mecánicos que se resuelven fácilmente en el propio garaje o en la ciudad de origen, pueden convertirse en un desafío mucho mayor fuera de casa, en un área con poca infraestructura, o sin conocer si hay un distribuidor cercano. \n
+e. Los adultos y los niños de la localidad a visitar (¡y los animales!) pueden no estar familiarizados con las motocicletas o sus capacidades, y juzgar mal las situaciones. Los estándares de conducción y la disciplina varían enormemente y, a menudo, la percepción es de "la ley del más fuerte" con poca consideración que se le presta al pobre que va sobre una moto. \n
+f. La vida silvestre local, tanto doméstica como salvaje, puede presentar riesgos. Los osos y los lobos están presentes en algunas áreas, las serpientes en otras, los renos salvajes vagabundos en el extremo norte y el ganado y los perros están por todas partes. \n
+g. Las leyes y regulaciones siempre están cambiando en todo el continente, por lo que un camino que los contribuyentes pensaban que era legal, puede que ahora no lo sea. Esto puede generar conflictos con las autoridades, las comunidades, los terratenientes u otros usuarios; desde una mirada, un grito o un puño agitado, hasta arresto, enjuiciamiento, litigio, confiscación de motos, multa o pérdida del carnet o la libertad. \n
+h. Los conceptos y la práctica de saneamiento e higiene varían enormemente y las instalaciones médicas pueden ser escasas, poco óptimas o distantes. \n
+I. El lado más sórdido de la humanidad también puede impactarte a través del robo, asalto o fraude. \n
+j. Tenga en cuenta que algunas áreas de Europa del Este también han aumentado la conciencia de las poblaciones móviles tras la afluencia de refugiados, por lo que puede encontrarse con personas desesperadamente pobres o autoridades cautelosas. \n
+k. En Bosnia, Croacia y otros lugares, los restos de la guerra todavía existen en forma de campos de minas sin limpiar. La nieve, el agua y el suelo los desplazan, por lo que alejarse de los senderos bien utilizados puede ser peligroso y, no hace falta decirlo, estúpido.
+\n \n
+18. Todos los senderos y carreteras requieren que usted y su moto estén totalmente asegurados, tengan licencia y sean aptos para circular.
+\n \n
+19. Debe asegurarse de que su documentación esté en orden, ya sea seguro de moto, de avería o médico / repatriación, licencias o pasaportes.
+\n \n
+20. Debes practicar un poco para desarrollar confianza y destreza (y respeto por tus propios límites y los de tu bicicleta).
+\n \n
+21. Debe asegurarse de estar debidamente equipado con las llantas, repuestos, protección, botiquín de primeros auxilios, dispositivos de comunicación (¡y baterías!), equipaje y equipo de campamento adecuados.
+\n \n
+22. Conduzca consciente del terreno, la superficie y anticipándose a peligros inesperados.
+\n \n
+23. Modere su velocidad.
+\n \n
+24. Ponte en forma en moto. Si tiene una afección médica, piense detenidamente y siga algunos consejos médicos.
+\n \n
+25. Empiece el viaje con una moto lista para viajar. Familiarícese con su moto, qué comprobaciones diarias debe realizar y cómo solucionar problemas con ella.
+\n \n
+26. Tome precauciones de seguridad con sus pertenencias y con usted mismo.
+\n \n
+27. Acepta adherirse al Código de conducta de Trans Euro Trail® y ser un embajador del motociclismo responsable.
+\n \n
+28. Acepte que es dueño o dueño de su propio destino, seguridad, salud y seguridad. Asumes la responsabilidad de lo que pase.
 
     <!--NOTIFICATION SERVICE-->
-    <string name="notification_trackupdate_title">GPX Track Update Available</string>
-    <string name="notification_trackupdate_message1">There is</string>
-    <string name="notification_trackupdate_message2">track update(s) available.</string>
+    <string name="notification_trackupdate_title">Actualización de Track GPX Disponible</string>
+    <string name="notification_trackupdate_message1">Hay </string>
+    <string name="notification_trackupdate_message2">actualiacion(es) de Tracks disponibles.</string>
 
 </resources>
